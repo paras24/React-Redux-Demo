@@ -1,24 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import {Provider} from 'react-redux'
+import {store} from './Store'
+import TranscriptFunctionalComponent from './component/TranscriptComponents/TranscriptFunctionalComponent';
+import ErrorBoundary from './component/TranscriptComponents/ErrorBoundary';
+import Container from './component/TranscriptComponents/Container';
+
+
+// Added Two Components : Class--> TranscriptClassComponent & Functional --> TranscriptFunctionalComponent
+// We can use any of the Components to get Transcript list by providing Gene Symbol by uncommenting any.
+// Created Error Boundary component for catching errors of Class Component
+
+/* Created Container.js for separating all redux states and dispatch functions for index page of every module in the application.
+  It is helpful in achieving Separation of Concern and everytime we need to add any new state or dispatch function, it can be done here instead of adding everything on the index page.
+  This is the only place where we would make any changes in order to connect our component with redux state and dispatcher.
+*/
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider store = {store}>
+       <div className="App">
+         <ErrorBoundary>           
+             <Container/>
+         </ErrorBoundary>
+         {/* <TranscriptFunctionalComponent/> */}
+       </div>
+    </Provider>
   );
 }
 

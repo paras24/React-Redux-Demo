@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Fetch Transcript Error Dispatches the correct action and payload 1`] = `
+Object {
+  "error": "Something Went Wrong",
+  "type": "FETCH_TRANSCRIPT_ERROR",
+}
+`;
+
+exports[`fetchTransError Dispatches the correct action and payload 1`] = `
+Object {
+  "error": "Something Went Wrong",
+  "type": "FETCH_TRANSCRIPT_ERROR",
+}
+`;
+
+exports[`fetchTransReq Dispatches the correct action and payload 1`] = `
+Object {
+  "type": "FETCH_TRANSCRIPT_REQ",
+}
+`;
+
+exports[`fetchTransSuccess Dispatches the correct action and payload 1`] = `
+Object {
+  "Transcripts": "BRAF",
+  "type": "FETCH_TRANSCRIPT_SUCCESS",
+}
+`;

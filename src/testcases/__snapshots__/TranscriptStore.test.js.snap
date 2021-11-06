@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Default store state Test Store State 1`] = `[Function]`;
+
+exports[`fetchTransReq Dispatches the correct action and payload 1`] = `
+Object {
+  "type": "FETCH_TRANSCRIPT_REQ",
+}
+`;

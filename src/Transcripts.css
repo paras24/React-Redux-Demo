@@ -1,0 +1,45 @@
+  .container { 
+    text-align: center;
+    font-family: arial;
+    font-size: 13.5px;
+    margin: 25px;  
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;  
+    }
+  
+  .title {
+      text-align: center;
+      font-family: arial, sans-serif;
+    }  
+  
+  .titleContainer { 
+      text-align: center;
+      font-family: arial;      
+      margin: 25px;      
+      margin-left: auto;
+      margin-right: auto;  
+    }
+    
+  table {        
+      table-layout: fixed;
+      width: 250px;
+      }    
+  th,
+  td {   
+      padding: 2px;   
+      width: 100px;      
+      word-break: break-all;
+    }
+
+  label {
+      width:100px;
+      clear:left;
+      text-align:right;
+      padding-right:10px;
+  }  
+  .button{ 
+    margin: 5px;
+  } 
+   
+ 
