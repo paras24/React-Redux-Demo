@@ -6,7 +6,7 @@ import {fetchTransSuccess,
            fetchTransError,
               fetchTranscripts} from '../redux/Transcript/TranscriptAction'
 import {store} from '../Store'
-import {getTranscritUrl} from '../redux/Transcript/EndPoints'
+import {getTranscriptUrl} from '../redux/Transcript/EndPoints'
 
 describe('fetchTransSuccess', () => {
     test('Dispatches the correct action and payload', () => {
@@ -49,7 +49,7 @@ describe('fetchTranscriptsWithoutSymbol', () => {
 describe('Get Transcripts', () => {
     it('Verify transcript URL', async () => {
       const symbolName = 'BRAF'
-      const result = getTranscritUrl(symbolName)  
+      const result = getTranscriptUrl(symbolName)  
       expect(result.endsWith(`/${symbolName}.json?;expand=1`))
      });
   })
