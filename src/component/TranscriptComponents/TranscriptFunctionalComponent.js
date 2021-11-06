@@ -15,7 +15,7 @@ function TranscriptFunctionalComponent(){
   const transcriptArray = TranscriptsData.transcripts.Transcript;
   const transcriptHeader = TranscriptsData.transcripts.Transcript && <h3>Transcript Info</h3>
 
-  // It will behave like and componentDidMount Class component with empty Dependency Array
+  // useEffect hook with empty Dependency Array will behave similar to class life cycle event componentDidMount() 
   // In order to set focus of input element once component is mounted
 
   useEffect(()=>{ 
