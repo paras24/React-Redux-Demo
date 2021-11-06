@@ -3,7 +3,7 @@ import {FETCH_TRANSCRIPT_REQ,
          FETCH_TRANSCRIPT_ERROR}
              from './TranscriptType'
 import axios from 'axios'
-import {getTranscritUrl} from './EndPoints'
+import {getTranscriptUrl} from './EndPoints'
 
 
 // created various actions in order to facilate various transitions
@@ -30,7 +30,7 @@ return {
 // Using axios in order to deal with various Api's call
 export const fetchTranscripts = (symbol)=>{
     const symbolName = symbol
-    const transcriptUrl = getTranscritUrl(symbolName)
+    const transcriptUrl = getTranscriptUrl(symbolName)
     return (dispatch)=>{
     dispatch(fetchTransReq())
     axios.get(transcriptUrl)
