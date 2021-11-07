@@ -3,9 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 /* Lazy Loading applied on the Table Component, so that the component is loaded only when required in the application. 
 This will help in improving the performance of the application.
-For e.g., we are using Transcripts.css in the Table Component, so it will be loaded only when the Table component is loaded.
 */
-const TableComponent = React.lazy(() => import('./TableComponent'));
+const TableComponent = React.lazy(() => import('../../sharedComponent/TableComponent'));
 
 // Created Functional PaginationComponent
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { useTable, usePagination } from 'react-table'
-import '../../Transcripts.css'
+import '../styles/Transcripts.css'
 
 // Created Table functional component using react-table and bootstarp packages
 function Table({ columns, data }) {

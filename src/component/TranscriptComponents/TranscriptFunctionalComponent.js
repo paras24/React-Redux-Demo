@@ -2,7 +2,7 @@ import React, {useEffect, useState, useRef } from 'react'
 import {useSelector,useDispatch} from 'react-redux'
 import { fetchTranscripts } from '../../redux/Transcript/TranscriptAction'
 import PaginationTableComponent from './PaginationTableComponent'
-import '../../Transcripts.css'
+import '../../styles/Transcripts.css'
 
 // Created Functional Components using various Hooks in order to achieve required functionality
 function TranscriptFunctionalComponent(){

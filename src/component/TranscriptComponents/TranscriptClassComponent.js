@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import PaginationTableComponent from './PaginationTableComponent'
 import  Prototypes  from 'prop-types'
+import '../../styles/Transcripts.css'
 
 // Added Transcripts.css to provide some css related customizations
 // Created Class Components in order to achieve required functionality
