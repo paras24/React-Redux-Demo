@@ -15,6 +15,9 @@ This project focus on learning the basic concepts of React and Redux.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Sample Inputs For Application
+BRAF,BRCA2
+
 ## Available Scripts
 
 In the project directory, you can run:
