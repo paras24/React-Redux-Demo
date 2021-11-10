@@ -2,7 +2,7 @@
 
 This project focus on learning the basic concepts of React and Redux.
 1. Class components
-2. Functional components
+2. Functional components using Hooks
 3. Redux for maintaining global state of application
 4. Thunk
 5. Logger
