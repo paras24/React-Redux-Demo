@@ -13,6 +13,7 @@ This project focus on learning the basic concepts of React and Redux.
 10. Unit testing with Enzyme and Jest
 11. Axios for async calls
 12. Axios Interceptors for Global Logging Or Error Handling
+13. BootStrap library
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
